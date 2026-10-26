@@ -1,0 +1,21 @@
+{
+  "name": "@consentflow/banner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The embeddable consent banner and script blocker (cmp.js).",
+  "scripts": {
+    "build": "esbuild src/entry.ts --bundle --minify --format=iife --target=es2017 --outfile=dist/cmp.js --legal-comments=none",
+    "test": "vitest run",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@consentflow/shared": "0.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0",
+    "jsdom": "^25.0.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}

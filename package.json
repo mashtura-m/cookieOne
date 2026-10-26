@@ -1,0 +1,23 @@
+{
+  "name": "consentflow",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Cookie consent management platform: scanner, banner, geo rules, consent logs and dashboard.",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @consentflow/banner && npm run build -w @consentflow/api && npm run build -w @consentflow/scanner && npm run build -w @consentflow/dashboard",
+    "dev:api": "npm run dev -w @consentflow/api",
+    "dev:dashboard": "npm run dev -w @consentflow/dashboard",
+    "dev:scanner": "npm run dev -w @consentflow/scanner",
+    "db:migrate": "npm run migrate -w @consentflow/api",
+    "db:seed": "npm run seed -w @consentflow/api",
+    "test": "npm test -w @consentflow/shared && npm test -w @consentflow/banner && npm test -w @consentflow/api",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

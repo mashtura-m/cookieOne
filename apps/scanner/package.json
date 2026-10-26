@@ -1,0 +1,25 @@
+{
+  "name": "@consentflow/scanner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Crawls customer sites with a headless browser and records cookies, storage and trackers.",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "node ../../scripts/build-node.mjs src/index.ts",
+    "start": "node dist/index.js",
+    "scan-once": "tsx src/index.ts --once",
+    "typecheck": "tsc -p ."
+  },
+  "dependencies": {
+    "@consentflow/shared": "0.1.0",
+    "pg": "^8.13.1",
+    "playwright": "1.63.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@types/pg": "^8.11.10",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}

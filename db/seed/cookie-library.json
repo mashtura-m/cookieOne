@@ -1,0 +1,1469 @@
+[
+[
+"_ga",
+false,
+"Google Analytics",
+null,
+"statistics",
+"Distinguishes unique users by assigning a randomly generated client ID.",
+"2 years"
+],
+[
+"^_ga_[A-Z0-9]+$",
+true,
+"Google Analytics",
+null,
+"statistics",
+"Stores and counts page views and session state for Google Analytics 4.",
+"2 years"
+],
+[
+"_gid",
+false,
+"Google Analytics",
+null,
+"statistics",
+"Distinguishes users for daily statistics.",
+"24 hours"
+],
+[
+"_gat",
+false,
+"Google Analytics",
+null,
+"statistics",
+"Throttles the request rate to Google Analytics.",
+"1 minute"
+],
+[
+"^_gat_.+$",
+true,
+"Google Analytics",
+null,
+"statistics",
+"Throttles the request rate for a specific Google Analytics property.",
+"1 minute"
+],
+[
+"^_dc_gtm_.+$",
+true,
+"Google Tag Manager",
+null,
+"statistics",
+"Throttles the request rate of tags loaded through Google Tag Manager.",
+"1 minute"
+],
+[
+"__utma",
+false,
+"Google Analytics (legacy)",
+null,
+"statistics",
+"Distinguishes users and sessions (Universal Analytics, ga.js).",
+"2 years"
+],
+[
+"__utmb",
+false,
+"Google Analytics (legacy)",
+null,
+"statistics",
+"Determines new sessions or visits.",
+"30 minutes"
+],
+[
+"__utmc",
+false,
+"Google Analytics (legacy)",
+null,
+"statistics",
+"Determines whether the user was in a new session.",
+"Session"
+],
+[
+"__utmz",
+false,
+"Google Analytics (legacy)",
+null,
+"statistics",
+"Stores the traffic source or campaign that brought the user to the site.",
+"6 months"
+],
+[
+"__utmt",
+false,
+"Google Analytics (legacy)",
+null,
+"statistics",
+"Throttles the request rate.",
+"10 minutes"
+],
+[
+"_gcl_au",
+false,
+"Google AdSense / Ads",
+null,
+"marketing",
+"Stores ad click information to measure conversions across websites.",
+"3 months"
+],
+[
+"_gcl_aw",
+false,
+"Google Ads",
+null,
+"marketing",
+"Stores the Google Ads click ID for conversion tracking.",
+"3 months"
+],
+[
+"_gcl_dc",
+false,
+"Google Ads",
+null,
+"marketing",
+"Stores Campaign Manager click information for conversion tracking.",
+"3 months"
+],
+[
+"_gcl_gs",
+false,
+"Google Ads",
+null,
+"marketing",
+"Stores ad click information when consent mode is used.",
+"3 months"
+],
+[
+"_gac_.+",
+true,
+"Google Ads",
+null,
+"marketing",
+"Contains campaign information linked from Google Ads to Analytics.",
+"3 months"
+],
+[
+"IDE",
+false,
+"Google DoubleClick",
+"doubleclick.net",
+"marketing",
+"Registers and reports user actions after viewing or clicking an ad to measure effectiveness and personalize ads.",
+"13 months"
+],
+[
+"test_cookie",
+false,
+"Google DoubleClick",
+"doubleclick.net",
+"marketing",
+"Checks whether the browser supports cookies.",
+"15 minutes"
+],
+[
+"DSID",
+false,
+"Google DoubleClick",
+"doubleclick.net",
+"marketing",
+"Identifies a signed-in user on non-Google sites for ad personalization.",
+"2 weeks"
+],
+[
+"NID",
+false,
+"Google",
+"google.com",
+"marketing",
+"Stores preferences and information used to personalize ads on Google sites.",
+"6 months"
+],
+[
+"AEC",
+false,
+"Google",
+"google.com",
+"necessary",
+"Ensures requests in a browsing session are made by the user and not by other sites (security).",
+"6 months"
+],
+[
+"SOCS",
+false,
+"Google",
+"google.com",
+"necessary",
+"Stores the user's state regarding their cookie choices on Google.",
+"13 months"
+],
+[
+"1P_JAR",
+false,
+"Google",
+"google.com",
+"marketing",
+"Collects website statistics and tracks conversion rates for ads.",
+"1 month"
+],
+[
+"__Secure-3PSID",
+false,
+"Google",
+"google.com",
+"marketing",
+"Builds a profile of interests to show relevant and personalized ads.",
+"2 years"
+],
+[
+"__Secure-3PAPISID",
+false,
+"Google",
+"google.com",
+"marketing",
+"Builds a profile of interests to show relevant and personalized ads.",
+"2 years"
+],
+[
+"__Secure-3PSIDCC",
+false,
+"Google",
+"google.com",
+"marketing",
+"Builds a profile of interests to show relevant and personalized ads.",
+"1 year"
+],
+[
+"__Secure-ENID",
+false,
+"Google",
+"google.com",
+"preferences",
+"Remembers preferences such as language and number of search results.",
+"13 months"
+],
+[
+"CONSENT",
+false,
+"Google",
+"google.com",
+"necessary",
+"Stores the user's consent state for Google services.",
+"2 years"
+],
+[
+"_GRECAPTCHA",
+false,
+"Google reCAPTCHA",
+"google.com",
+"necessary",
+"Provides risk analysis to protect forms against spam and abuse.",
+"6 months"
+],
+[
+"YSC",
+false,
+"YouTube",
+"youtube.com",
+"marketing",
+"Registers a unique ID to keep statistics of which videos the user has seen.",
+"Session"
+],
+[
+"VISITOR_INFO1_LIVE",
+false,
+"YouTube",
+"youtube.com",
+"marketing",
+"Estimates the user's bandwidth on pages with embedded YouTube videos.",
+"6 months"
+],
+[
+"VISITOR_PRIVACY_METADATA",
+false,
+"YouTube",
+"youtube.com",
+"marketing",
+"Stores the user's consent and privacy state for YouTube.",
+"6 months"
+],
+[
+"PREF",
+false,
+"YouTube",
+"youtube.com",
+"preferences",
+"Stores player preferences such as volume and quality.",
+"8 months"
+],
+[
+"yt-remote-device-id",
+false,
+"YouTube",
+"youtube.com",
+"marketing",
+"Stores the user's video player preferences for embedded YouTube videos.",
+"Persistent"
+],
+[
+"yt.innertube::nextId",
+false,
+"YouTube",
+"youtube.com",
+"marketing",
+"Registers a unique ID to keep statistics of viewed videos.",
+"Persistent"
+],
+[
+"_fbp",
+false,
+"Meta Pixel",
+null,
+"marketing",
+"Stores and tracks visits across websites to deliver Facebook and Instagram ads.",
+"3 months"
+],
+[
+"_fbc",
+false,
+"Meta Pixel",
+null,
+"marketing",
+"Stores the last Facebook ad click ID.",
+"3 months"
+],
+[
+"fr",
+false,
+"Meta",
+"facebook.com",
+"marketing",
+"Delivers, measures and improves the relevancy of ads.",
+"3 months"
+],
+[
+"datr",
+false,
+"Meta",
+"facebook.com",
+"necessary",
+"Identifies the browser for security and site integrity on Facebook.",
+"2 years"
+],
+[
+"sb",
+false,
+"Meta",
+"facebook.com",
+"marketing",
+"Identifies the browser for Facebook login and ads.",
+"2 years"
+],
+[
+"tr",
+false,
+"Meta",
+"facebook.com",
+"marketing",
+"Facebook Pixel tracking request (image pixel).",
+"Session"
+],
+[
+"_uetsid",
+false,
+"Microsoft Advertising",
+null,
+"marketing",
+"Stores session data for Microsoft Advertising (UET) conversion tracking.",
+"1 day"
+],
+[
+"_uetvid",
+false,
+"Microsoft Advertising",
+null,
+"marketing",
+"Assigns a visitor ID for Microsoft Advertising (UET) conversion tracking.",
+"13 months"
+],
+[
+"MUID",
+false,
+"Microsoft",
+"bing.com",
+"marketing",
+"Identifies unique browsers visiting Microsoft sites for advertising and analytics.",
+"13 months"
+],
+[
+"_clck",
+false,
+"Microsoft Clarity",
+null,
+"statistics",
+"Persists the Clarity user ID and preferences.",
+"1 year"
+],
+[
+"_clsk",
+false,
+"Microsoft Clarity",
+null,
+"statistics",
+"Connects multiple page views by a user into a single Clarity session recording.",
+"1 day"
+],
+[
+"CLID",
+false,
+"Microsoft Clarity",
+"clarity.ms",
+"statistics",
+"Identifies the first time Clarity saw this user.",
+"1 year"
+],
+[
+"ANONCHK",
+false,
+"Microsoft Clarity",
+"clarity.ms",
+"statistics",
+"Indicates whether MUID is transferred to ANID.",
+"10 minutes"
+],
+[
+"SM",
+false,
+"Microsoft Clarity",
+"clarity.ms",
+"statistics",
+"Synchronizes the MUID across Microsoft domains.",
+"Session"
+],
+[
+"ai_user",
+false,
+"Azure Application Insights",
+null,
+"statistics",
+"Collects statistics on site usage and performance.",
+"1 year"
+],
+[
+"ai_session",
+false,
+"Azure Application Insights",
+null,
+"statistics",
+"Counts sessions for Application Insights.",
+"30 minutes"
+],
+[
+"li_gc",
+false,
+"LinkedIn",
+"linkedin.com",
+"necessary",
+"Stores the visitor's consent regarding LinkedIn cookies for non-essential purposes.",
+"6 months"
+],
+[
+"lidc",
+false,
+"LinkedIn",
+"linkedin.com",
+"marketing",
+"Used for routing and to select the data center.",
+"1 day"
+],
+[
+"bcookie",
+false,
+"LinkedIn",
+"linkedin.com",
+"marketing",
+"Browser identifier cookie used by LinkedIn share buttons and ad tags.",
+"1 year"
+],
+[
+"UserMatchHistory",
+false,
+"LinkedIn",
+"linkedin.com",
+"marketing",
+"Syncs LinkedIn Ads IDs.",
+"30 days"
+],
+[
+"AnalyticsSyncHistory",
+false,
+"LinkedIn",
+"linkedin.com",
+"marketing",
+"Stores when the visitor was last synced with the li_sugr cookie.",
+"30 days"
+],
+[
+"li_sugr",
+false,
+"LinkedIn",
+"linkedin.com",
+"marketing",
+"Browser identifier used to match visitors across LinkedIn and third parties.",
+"3 months"
+],
+[
+"_li_ss",
+false,
+"LinkedIn",
+null,
+"marketing",
+"Stores LinkedIn Insight Tag data.",
+"1 month"
+],
+[
+"li_fat_id",
+false,
+"LinkedIn",
+null,
+"marketing",
+"Stores the LinkedIn member click ID for conversion tracking.",
+"30 days"
+],
+[
+"muc_ads",
+false,
+"X (Twitter)",
+"t.co",
+"marketing",
+"Collects data on user behaviour and interaction to optimize ads.",
+"13 months"
+],
+[
+"personalization_id",
+false,
+"X (Twitter)",
+"twitter.com",
+"marketing",
+"Tracks activities on and off X for a personalized experience and ads.",
+"13 months"
+],
+[
+"guest_id",
+false,
+"X (Twitter)",
+"twitter.com",
+"marketing",
+"Identifies the user for embedded X content and ads.",
+"13 months"
+],
+[
+"_twclid",
+false,
+"X (Twitter)",
+null,
+"marketing",
+"Stores the X ad click ID for conversion tracking.",
+"2 years"
+],
+[
+"_ttp",
+false,
+"TikTok",
+null,
+"marketing",
+"Measures and improves the performance of TikTok ad campaigns.",
+"13 months"
+],
+[
+"_tt_enable_cookie",
+false,
+"TikTok",
+null,
+"marketing",
+"Checks whether TikTok Pixel cookies can be set.",
+"13 months"
+],
+[
+"ttcsid",
+false,
+"TikTok",
+null,
+"marketing",
+"Stores TikTok session information for conversion tracking.",
+"13 months"
+],
+[
+"^ttcsid_[A-Z0-9]+$",
+true,
+"TikTok",
+null,
+"marketing",
+"Stores TikTok session information for a pixel.",
+"13 months"
+],
+[
+"_pin_unauth",
+false,
+"Pinterest",
+null,
+"marketing",
+"Groups actions for users who cannot be identified by Pinterest.",
+"1 year"
+],
+[
+"_pinterest_ct_ua",
+false,
+"Pinterest",
+null,
+"marketing",
+"Tracks the Pinterest ad click for conversions.",
+"1 year"
+],
+[
+"_epik",
+false,
+"Pinterest",
+null,
+"marketing",
+"Stores the Pinterest ad click ID.",
+"1 year"
+],
+[
+"_scid",
+false,
+"Snapchat",
+null,
+"marketing",
+"Helps Snap measure ad performance and deliver relevant ads.",
+"13 months"
+],
+[
+"_scid_r",
+false,
+"Snapchat",
+null,
+"marketing",
+"Helps Snap measure ad performance and deliver relevant ads.",
+"13 months"
+],
+[
+"_rdt_uuid",
+false,
+"Reddit",
+null,
+"marketing",
+"Reddit Pixel ID used to measure ad conversions.",
+"3 months"
+],
+[
+"_hjSessionUser_.+",
+true,
+"Hotjar",
+null,
+"statistics",
+"Ensures data from subsequent visits is attributed to the same user ID.",
+"1 year"
+],
+[
+"_hjSession_.+",
+true,
+"Hotjar",
+null,
+"statistics",
+"Holds current session data so later requests are attributed to the same session.",
+"30 minutes"
+],
+[
+"_hjFirstSeen",
+false,
+"Hotjar",
+null,
+"statistics",
+"Identifies a new user's first session.",
+"30 minutes"
+],
+[
+"_hjIncludedInSessionSample_.+",
+true,
+"Hotjar",
+null,
+"statistics",
+"Determines whether the user is included in Hotjar's session sample.",
+"30 minutes"
+],
+[
+"_hjAbsoluteSessionInProgress",
+false,
+"Hotjar",
+null,
+"statistics",
+"Detects the first page view session of a user.",
+"30 minutes"
+],
+[
+"_hjTLDTest",
+false,
+"Hotjar",
+null,
+"statistics",
+"Determines the most generic cookie path to use.",
+"Session"
+],
+[
+"mp_.+_mixpanel",
+true,
+"Mixpanel",
+null,
+"statistics",
+"Stores Mixpanel analytics identifiers and properties.",
+"1 year"
+],
+[
+"^AMP_[a-f0-9]+$",
+true,
+"Amplitude",
+null,
+"statistics",
+"Stores the Amplitude device and session identifiers.",
+"1 year"
+],
+[
+"^amp_[a-f0-9]+$",
+true,
+"Amplitude",
+null,
+"statistics",
+"Stores the Amplitude device and session identifiers (legacy SDK).",
+"1 year"
+],
+[
+"ajs_anonymous_id",
+false,
+"Segment",
+null,
+"statistics",
+"Stores an anonymous visitor ID for Segment analytics.",
+"1 year"
+],
+[
+"ajs_user_id",
+false,
+"Segment",
+null,
+"statistics",
+"Stores the identified user ID for Segment analytics.",
+"1 year"
+],
+[
+"_pk_id\\..+",
+true,
+"Matomo",
+null,
+"statistics",
+"Stores a unique visitor ID for Matomo analytics.",
+"13 months"
+],
+[
+"_pk_ses\\..+",
+true,
+"Matomo",
+null,
+"statistics",
+"Stores temporary session data for Matomo analytics.",
+"30 minutes"
+],
+[
+"_pk_ref\\..+",
+true,
+"Matomo",
+null,
+"statistics",
+"Stores the referrer that brought the visitor to the site.",
+"6 months"
+],
+[
+"MATOMO_SESSID",
+false,
+"Matomo",
+null,
+"necessary",
+"Session cookie for the Matomo opt-out and admin.",
+"Session"
+],
+[
+"_vwo_uuid_v2",
+false,
+"VWO",
+null,
+"statistics",
+"Generates a unique ID for A/B testing with VWO.",
+"1 year"
+],
+[
+"_vis_opt_s",
+false,
+"VWO",
+null,
+"statistics",
+"Tracks sessions created for a VWO visitor.",
+"100 days"
+],
+[
+"optimizelyEndUserId",
+false,
+"Optimizely",
+null,
+"statistics",
+"Stores a unique visitor ID for Optimizely experiments.",
+"6 months"
+],
+[
+"ln_or",
+false,
+"LinkedIn",
+null,
+"marketing",
+"Determines whether LinkedIn Insight Tag analytics should run.",
+"1 day"
+],
+[
+"_fs_uid",
+false,
+"FullStory",
+null,
+"statistics",
+"Identifies the visitor for FullStory session recordings.",
+"1 year"
+],
+[
+"__kla_id",
+false,
+"Klaviyo",
+null,
+"marketing",
+"Tracks visitors for Klaviyo email marketing.",
+"2 years"
+],
+[
+"_lfa",
+false,
+"Leadfeeder",
+null,
+"marketing",
+"Identifies companies visiting the site for B2B lead generation.",
+"2 years"
+],
+[
+"_cfuvid",
+false,
+"Cloudflare",
+null,
+"necessary",
+"Used by Cloudflare rate limiting to distinguish users sharing an IP address.",
+"Session"
+],
+[
+"__hstc",
+false,
+"HubSpot",
+null,
+"marketing",
+"Tracks visitors: domain, first and last visit, and session count.",
+"6 months"
+],
+[
+"hubspotutk",
+false,
+"HubSpot",
+null,
+"marketing",
+"Keeps track of a visitor's identity and passes it to HubSpot on form submission.",
+"6 months"
+],
+[
+"__hssc",
+false,
+"HubSpot",
+null,
+"statistics",
+"Tracks sessions to update session numbers and timestamps.",
+"30 minutes"
+],
+[
+"__hssrc",
+false,
+"HubSpot",
+null,
+"statistics",
+"Determines whether the visitor restarted their browser.",
+"Session"
+],
+[
+"__hs_opt_out",
+false,
+"HubSpot",
+null,
+"necessary",
+"Remembers that the visitor opted out of HubSpot tracking.",
+"6 months"
+],
+[
+"__hs_cookie_cat_pref",
+false,
+"HubSpot",
+null,
+"necessary",
+"Records the categories a visitor consented to.",
+"6 months"
+],
+[
+"messagesUtk",
+false,
+"HubSpot",
+null,
+"preferences",
+"Recognizes visitors who chat through the HubSpot chat widget.",
+"6 months"
+],
+[
+"intercom-id-.+",
+true,
+"Intercom",
+null,
+"preferences",
+"Anonymous visitor identifier so Intercom can recognize returning visitors in chat.",
+"9 months"
+],
+[
+"intercom-session-.+",
+true,
+"Intercom",
+null,
+"preferences",
+"Keeps the Intercom chat session active across page views.",
+"1 week"
+],
+[
+"intercom-device-id-.+",
+true,
+"Intercom",
+null,
+"preferences",
+"Identifies the device for the Intercom messenger.",
+"9 months"
+],
+[
+"__zlcmid",
+false,
+"Zendesk Chat",
+null,
+"preferences",
+"Stores the visitor's Zendesk (Zopim) chat ID.",
+"1 year"
+],
+[
+"__cf_bm",
+false,
+"Cloudflare",
+null,
+"necessary",
+"Distinguishes humans from bots (Cloudflare Bot Management).",
+"30 minutes"
+],
+[
+"cf_clearance",
+false,
+"Cloudflare",
+null,
+"necessary",
+"Records that the visitor passed a Cloudflare security challenge.",
+"1 year"
+],
+[
+"__cflb",
+false,
+"Cloudflare",
+null,
+"necessary",
+"Cloudflare load balancer session affinity.",
+"1 day"
+],
+[
+"_dd_s",
+false,
+"Datadog",
+null,
+"statistics",
+"Groups events from a session for Datadog Real User Monitoring.",
+"15 minutes"
+],
+[
+"crisp-client/session/.+",
+true,
+"Crisp",
+null,
+"preferences",
+"Keeps the Crisp chat session.",
+"6 months"
+],
+[
+"drift_aid",
+false,
+"Drift",
+null,
+"preferences",
+"Anonymous Drift visitor ID for chat.",
+"2 years"
+],
+[
+"_lc2_fpi",
+false,
+"LiveChat",
+null,
+"preferences",
+"Identifies the visitor for LiveChat.",
+"2 years"
+],
+[
+"tawkUUID",
+false,
+"Tawk.to",
+null,
+"preferences",
+"Identifies the visitor for Tawk.to chat.",
+"6 months"
+],
+[
+"__stripe_mid",
+false,
+"Stripe",
+null,
+"necessary",
+"Fraud prevention and detection for Stripe payments.",
+"1 year"
+],
+[
+"__stripe_sid",
+false,
+"Stripe",
+null,
+"necessary",
+"Fraud prevention and detection for Stripe payments.",
+"30 minutes"
+],
+[
+"m",
+false,
+"Stripe",
+"stripe.com",
+"necessary",
+"Fraud prevention for Stripe payments.",
+"2 years"
+],
+[
+"PHPSESSID",
+false,
+"PHP",
+null,
+"necessary",
+"Preserves the user's session state across page requests.",
+"Session"
+],
+[
+"JSESSIONID",
+false,
+"Java",
+null,
+"necessary",
+"Preserves the user's session state across page requests.",
+"Session"
+],
+[
+"ASP.NET_SessionId",
+false,
+"ASP.NET",
+null,
+"necessary",
+"Preserves the user's session state across page requests.",
+"Session"
+],
+[
+"connect.sid",
+false,
+"Express",
+null,
+"necessary",
+"Preserves the user's session state across page requests.",
+"Session"
+],
+[
+"XSRF-TOKEN",
+false,
+"Generic",
+null,
+"necessary",
+"Protects forms against cross-site request forgery.",
+"Session"
+],
+[
+"csrftoken",
+false,
+"Django",
+null,
+"necessary",
+"Protects forms against cross-site request forgery.",
+"1 year"
+],
+[
+"sessionid",
+false,
+"Django",
+null,
+"necessary",
+"Preserves the user's session state.",
+"2 weeks"
+],
+[
+"AWSALB",
+false,
+"Amazon Web Services",
+null,
+"necessary",
+"Load balancer session stickiness.",
+"7 days"
+],
+[
+"AWSALBCORS",
+false,
+"Amazon Web Services",
+null,
+"necessary",
+"Load balancer session stickiness for cross-origin requests.",
+"7 days"
+],
+[
+"wordpress_test_cookie",
+false,
+"WordPress",
+null,
+"necessary",
+"Checks whether the browser accepts cookies.",
+"Session"
+],
+[
+"^wordpress_logged_in_[a-f0-9]+$",
+true,
+"WordPress",
+null,
+"necessary",
+"Indicates when a user is signed in to WordPress.",
+"Session"
+],
+[
+"^wordpress_sec_[a-f0-9]+$",
+true,
+"WordPress",
+null,
+"necessary",
+"Stores WordPress authentication details securely.",
+"Session"
+],
+[
+"^wp-settings-\\d+$",
+true,
+"WordPress",
+null,
+"preferences",
+"Stores the signed-in user's admin interface settings.",
+"1 year"
+],
+[
+"woocommerce_cart_hash",
+false,
+"WooCommerce",
+null,
+"necessary",
+"Helps WooCommerce determine when cart contents change.",
+"Session"
+],
+[
+"woocommerce_items_in_cart",
+false,
+"WooCommerce",
+null,
+"necessary",
+"Helps WooCommerce determine when cart contents change.",
+"Session"
+],
+[
+"^wp_woocommerce_session_.+$",
+true,
+"WooCommerce",
+null,
+"necessary",
+"Holds a unique code for each customer to find their cart.",
+"2 days"
+],
+[
+"_shopify_y",
+false,
+"Shopify",
+null,
+"statistics",
+"Shopify analytics: identifies a visitor.",
+"1 year"
+],
+[
+"_shopify_s",
+false,
+"Shopify",
+null,
+"statistics",
+"Shopify analytics: identifies a session.",
+"30 minutes"
+],
+[
+"_shopify_sa_p",
+false,
+"Shopify",
+null,
+"marketing",
+"Shopify analytics relating to marketing and referrals.",
+"30 minutes"
+],
+[
+"_shopify_sa_t",
+false,
+"Shopify",
+null,
+"marketing",
+"Shopify analytics relating to marketing and referrals.",
+"30 minutes"
+],
+[
+"cart",
+false,
+"Shopify",
+null,
+"necessary",
+"Stores the contents of the shopping cart.",
+"2 weeks"
+],
+[
+"secure_customer_sig",
+false,
+"Shopify",
+null,
+"necessary",
+"Used in connection with customer login.",
+"1 year"
+],
+[
+"localization",
+false,
+"Shopify",
+null,
+"preferences",
+"Stores the store localization (language and currency).",
+"1 year"
+],
+[
+"_tracking_consent",
+false,
+"Shopify",
+null,
+"necessary",
+"Stores the visitor's tracking consent for Shopify.",
+"1 year"
+],
+[
+"lang",
+false,
+"Generic",
+null,
+"preferences",
+"Remembers the visitor's selected language.",
+"Session"
+],
+[
+"cookieyes-consent",
+false,
+"CookieYes",
+null,
+"necessary",
+"Stores consent preferences (another consent tool).",
+"1 year"
+],
+[
+"CookieConsent",
+false,
+"Cookiebot",
+null,
+"necessary",
+"Stores consent preferences (another consent tool).",
+"1 year"
+],
+[
+"OptanonConsent",
+false,
+"OneTrust",
+null,
+"necessary",
+"Stores consent preferences (another consent tool).",
+"1 year"
+],
+[
+"OptanonAlertBoxClosed",
+false,
+"OneTrust",
+null,
+"necessary",
+"Records that the consent banner was closed (another consent tool).",
+"1 year"
+],
+[
+"euconsent-v2",
+false,
+"IAB TCF",
+null,
+"necessary",
+"Stores the IAB TCF consent string.",
+"1 year"
+],
+[
+"uuid2",
+false,
+"Xandr (AppNexus)",
+"adnxs.com",
+"marketing",
+"Registers a unique ID for targeted ads across websites.",
+"3 months"
+],
+[
+"anj",
+false,
+"Xandr (AppNexus)",
+"adnxs.com",
+"marketing",
+"Registers a unique ID for targeted ads across websites.",
+"3 months"
+],
+[
+"A3",
+false,
+"Yahoo",
+"yahoo.com",
+"marketing",
+"Collects data for ad targeting and measurement.",
+"1 year"
+],
+[
+"criteo_write_test",
+false,
+"Criteo",
+null,
+"marketing",
+"Checks whether Criteo can write cookies.",
+"Session"
+],
+[
+"cto_bundle",
+false,
+"Criteo",
+null,
+"marketing",
+"Stores Criteo identifiers for retargeting.",
+"13 months"
+],
+[
+"uid",
+false,
+"Criteo",
+"criteo.com",
+"marketing",
+"Unique user identifier for Criteo retargeting.",
+"13 months"
+],
+[
+"tuuid",
+false,
+"Bidswitch",
+"bidswitch.net",
+"marketing",
+"Registers whether ads were shown and their effectiveness.",
+"1 year"
+],
+[
+"IDSYNC",
+false,
+"Yahoo",
+"yahoo.com",
+"marketing",
+"Syncs user IDs across ad partners.",
+"1 year"
+],
+[
+"ar_debug",
+false,
+"Google",
+"doubleclick.net",
+"marketing",
+"Debugging for the Attribution Reporting API.",
+"3 months"
+],
+[
+"_rxuuid",
+false,
+"Rubicon (Magnite)",
+null,
+"marketing",
+"Stores a user ID for programmatic advertising.",
+"1 year"
+],
+[
+"TDID",
+false,
+"The Trade Desk",
+"adsrvr.org",
+"marketing",
+"Registers a unique ID for targeted ads across websites.",
+"1 year"
+],
+[
+"TDCPM",
+false,
+"The Trade Desk",
+"adsrvr.org",
+"marketing",
+"Registers a unique ID for targeted ads across websites.",
+"1 year"
+],
+[
+"vuid",
+false,
+"Vimeo",
+"vimeo.com",
+"statistics",
+"Collects tracking information about Vimeo video views.",
+"2 years"
+],
+[
+"__cf_bm",
+false,
+"Vimeo",
+"vimeo.com",
+"necessary",
+"Cloudflare bot management on Vimeo embeds.",
+"30 minutes"
+],
+[
+"player",
+false,
+"Vimeo",
+"vimeo.com",
+"preferences",
+"Stores the user's Vimeo player preferences.",
+"1 year"
+]
+]
